@@ -1,0 +1,45 @@
+graph LR
+A[Research Topic: Effects of "Bahala Na" on GAS Students' Academic Performance] --> B{Research Questions:
+* Positive effects of "Bahala Na"?
+* Negative effects of "Bahala Na"?
+* Impact on decision-making?
+* Recommendations for improvement?}
+A --> C{Purpose: Investigate the relationship between "Bahala Na" mentality and academic performance of GAS students in Ocampo National High School (This Study)}
+C --> D{Method: Descriptive research using surveys (Koh & Owen, 2000)}
+D --> E{Purposive sampling of Grade 11 & 12 GAS students (Nikolopoulou, 2022)}
+D --> F{Researcher-administered surveys (This Study)}
+C --> G{Literature Review (Positive & Negative Interpretations):
+* "Bahala Na" - "come what may" (Gripaldo, 2005)
+* Optimism, resilience (Hong, 2020)
+* Passivity, lack of responsibility (Casiño, 2009)
+* Impacts decision-making, risk-taking, and approach to challenges (Estante, 2019)
+* Gap in Research: Lacks studies on "Bahala Na" among GAS students in the Bicol Region (This Study)}
+C --> H{Limitations:
+* Specific to GAS students at Ocampo National High School (This Study)
+* One academic year (August to July) (This Study)
+* Surveys in English and Tagalog (This Study)
+* May not apply to other cultures (This Study)}
+A --> I{Results: Not available yet (study ongoing)}
+subgraph cluster_limitations
+H --> H1{Specific to GAS students at Ocampo National High School (This Study)}
+H --> H2{One academic year (August to July) (This Study)}
+H --> H3{Surveys in English and Tagalog (This Study)}
+H --> H4{May not apply to other cultures (This Study)}
+end
+subgraph cluster_literature
+G --> G1{"Bahala Na" - "come what may" (Gripaldo, 2005)}
+G --> G2{Optimism, resilience (Hong, 2020)}
+G --> G3{Passivity, lack of responsibility (Casiño, 2009)}
+G --> G4{Impacts decision-making, risk-taking, and approach to challenges (Estante, 2019)}
+G --> G5{Gap in Research: Lacks studies on "Bahala Na" among GAS students in the Bicol Region (This Study)}
+end
+subgraph cluster_method
+D --> D1{Descriptive research using surveys (Koh & Owen, 2000)}
+D --> D2{Purposive sampling of Grade 11 & 12 GAS students (Nikolopoulou, 2022)}
+D --> D3{Researcher-administered surveys (This Study)}
+end
+subgraph cluster_significance
+A --> J{Significance: 
+* Defines "Bahala Na" in student performance context (This Study)
+* Benefits educators, school communities, students, parents, and future researchers (This Study)}
+end
